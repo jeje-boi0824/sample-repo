@@ -17,7 +17,7 @@ fun main(){
 //    var int2 = readln().toInt()
 //
 //    var addedTotal = int1 + int2
-
+//
 //    if (addedTotal == 6){
 //        println("Condition 1 = $addedTotal")
 //    } else if ("Condition 2 = $addedTotal == 7){
@@ -31,7 +31,7 @@ fun main(){
 //        } else -> {
 //            println("else")
 //        }
-    println("Control Struture")
+//    println("Control Struture")
 //    repeat(times:5) { count ->
 //        val countB = count + 1
 //        println("repeat $count")
@@ -44,16 +44,33 @@ fun main(){
 
 
 //    while , DO and break, continue
-    var counterDo = 1
-    do {
-        println("do $counterDo")
-        counterDo++
-        if (counterDo ==5) {
-            break
-        }
-    } while (counterDo <=10)
+//    var counterDo = 1
+//    do {
+//        println("do $counterDo")
+//        counterDo++
+//        if (counterDo ==5) {
+//            break
+//        }
+//    } while (counterDo <=10)
+
+//    var nameString: String? = null
+//    val x = nameString?.length ?: -1
+//    println(x)
+
+//    var nameString: String? = null
+//    val x = nameString?.let { 2+2 }
+//    println("x = " + x)
+//    nameString = "Hello"
+//    val x2 = nameString?. let { 2+2 }
+//    println("x = " + x2)
 
 
+//    println("enter int : ")
+//    var x = readln()!!.toInt()
+
+//    for (i in 1 until  8 step 2) println(i)
+//    println("<>")
+//    for (a in 1 until  8 step 4) println(a)
 
 
 
